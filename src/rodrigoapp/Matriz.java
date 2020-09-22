@@ -83,7 +83,7 @@ public class Matriz {
     }
 
     //metodo que compara los tamaños de la matrizInvocada 
-    private boolean matrizIgual(int[][] matrizAComparar) {
+    public boolean matrizIgual(int[][] matrizAComparar) {
         return (matrizAComparar.length == matrizInvocada.length) && (matrizAComparar[0].length == matrizInvocada[0].length);
     }
 
